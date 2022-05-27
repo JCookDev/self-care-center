@@ -6,3 +6,87 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+html{
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.self-care{
+  color: white;
+  align-items: center;
+}
+
+body{
+  width: 100%;
+  align-items: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.message-type{
+  width: 70%;
+  align-items: center;
+  margin-top: 15px;
+  max-width: 600px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.message-title{
+  color: white;
+}
+
+label{
+  font-style: italic;
+}
+
+.buttons{
+  width: 70%;
+  align-items: center;
+  padding: 10px 24px 10px 10px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-buttons{
+  width:inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+.recieve-message{
+  width: fit-content;
+  margin-top: 16px;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  background-color: #134d71;
+}
+
+.message-area{
+  min-width: 600px;
+  align-items: center;
+  min-height: 110px;
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: auto;
+  height: 50px;
+}
