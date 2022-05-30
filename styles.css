@@ -86,6 +86,10 @@ label{
   justify-content: center;
 }
 
+.message-display{
+  font-weight: normal;
+}
+
 img{
   width: auto;
   height: 50px;
