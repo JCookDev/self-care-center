@@ -66,7 +66,8 @@ label{
   justify-content: space-around;
 }
 
-.receive-message{
+.receive-message,
+.delete-message{
   width: fit-content;
   margin-top: 16px;
   border-radius: 4px;
